@@ -143,9 +143,7 @@ class TestCard(unittest.TestCase):
         d.deal_card()
         l2 = len(d.cards)
         self.assertEqual(l1 - 1, l2)
-        X = l1 - 1
-        Y = l2
-        return X, Y    
+        return l1 - 1, l2   
     
 
     def test_q7(self):
